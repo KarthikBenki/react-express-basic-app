@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./server/server.js",
     "dev": "nodemon ./server/server.js",
-    "build": "cd ./client && npm install && npm test && npm run build"
+    "build": "cd ./frontend && npm install && npm test && npm run build"
   },
   "author": "Karthik M C",
   "license": "ISC",
